@@ -9,7 +9,7 @@ defaults
     timeout connect    3s
     timeout client    10s
     timeout server    10m
-    timeout tunnel    3600s
+    timeout tunnel  3600s
 {% if data["customerrors"] %}
     errorfile 400 /etc/haproxy/errors-custom/400.http
     errorfile 403 /etc/haproxy/errors-custom/403.http

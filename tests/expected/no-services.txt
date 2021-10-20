@@ -9,4 +9,5 @@ defaults
     timeout connect    3s
     timeout client    10s
     timeout server    10m
+    timeout tunnel  3600s
 
